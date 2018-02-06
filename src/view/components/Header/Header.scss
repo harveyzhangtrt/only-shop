@@ -1,0 +1,49 @@
+.header-bottom {
+    box-shadow: 0 2px 5px #aaa;
+    background-color: white;
+    font-weight: 600;
+}
+.brand-name {
+    font-size: 30px !important;
+    font-family: 'BreeSerif-Regular' !important;
+    
+    
+}
+.skyblue > li:hover > a{
+    color: #17a2b8;
+}
+.search-form{
+    transform: translateY(-40px);
+
+    @media (max-width: 768px) {
+        opacity: 0;
+    }
+
+    @media (max-width: 992px) {
+        transform: translate(15px, -40px);
+    }
+}
+
+.header {
+    @media (max-width: 992px) {
+        transform: translateX(5px);
+    }
+}
+
+.memenu > li > a {
+    padding: 0 15px;
+    margin: 0 10px;
+    @media (max-width: 992px) {
+        padding-right: 25px;
+    }
+}
+.grid {
+    border: 2px solid white;
+    
+    &:hover {
+        // transform: scale(1.1);
+        transition: all 300ms ease-in-out;
+        border: 2px solid #17a2b8;
+        border-radius: 20%;
+    }
+}

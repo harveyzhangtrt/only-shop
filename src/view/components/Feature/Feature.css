@@ -1,0 +1,17 @@
+figure.effect-bubba {
+  background: #17a2b8;
+  -webkit-box-shadow: 0 2px 12px rgba(111, 111, 111, 0.5);
+  box-shadow: 0 2px 12px rgba(111, 111, 111, 0.5);
+  border-radius: 2px; }
+  figure.effect-bubba img {
+    border-radius: 2px; }
+  figure.effect-bubba:hover {
+    -webkit-box-shadow: 0 1px 12px rgba(111, 111, 111, 0.5);
+    box-shadow: 0 1px 12px rgba(111, 111, 111, 0.5);
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02); }
+
+.about {
+  font-family: 'BreeSerif-Regular';
+  font-size: 18px; }
